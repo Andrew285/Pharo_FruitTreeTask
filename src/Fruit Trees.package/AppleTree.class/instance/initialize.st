@@ -4,7 +4,7 @@ initialize
 	|colors randomColor|
 	super initialize.
 	speciesName := 'apple'.
-	isCropThisYear := true.
+	isCropThisYear := false.
 	cropCapacity := 0.
 	cropColor := ''.
 		

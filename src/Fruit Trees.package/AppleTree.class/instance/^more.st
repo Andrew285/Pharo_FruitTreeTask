@@ -1,0 +1,4 @@
+comparing
+> anAppleTree
+
+	^anAppleTree < self

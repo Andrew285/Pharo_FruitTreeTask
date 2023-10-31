@@ -4,7 +4,7 @@ initializeWithCropStart: aCropStart
 	|colors randomColor|
 	super initialize.
 	speciesName := 'apple'.
-	isCropThisYear := true.
+	isCropThisYear := false.
 	cropCapacity := 0.
 	
 	colors := #('green' 'red' 'yellow').  "An array containing the possible colors"
