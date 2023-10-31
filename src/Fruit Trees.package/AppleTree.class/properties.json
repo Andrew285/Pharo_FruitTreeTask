@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "FruitTree",
+	"category" : "Fruit Trees",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cropColor",
+		"isCropThisYear"
+	],
+	"name" : "AppleTree",
+	"type" : "normal"
+}
