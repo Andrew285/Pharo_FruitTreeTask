@@ -1,0 +1,4 @@
+comparing
+> aFruitTree
+
+	^ aFruitTree < self
