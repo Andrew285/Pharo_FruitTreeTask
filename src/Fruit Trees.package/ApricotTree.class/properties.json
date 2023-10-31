@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "FruitTree",
+	"category" : "Fruit Trees",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isCold"
+	],
+	"name" : "ApricotTree",
+	"type" : "normal"
+}

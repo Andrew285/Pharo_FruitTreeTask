@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Fruit Trees",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"speciesName",
+		"age",
+		"height",
+		"cropCapacity",
+		"cropStart"
+	],
+	"name" : "FruitTree",
+	"type" : "normal"
+}
