@@ -1,4 +1,4 @@
 comparing
 < aFruitTree
 
-	^ self height < aFruitTree height.
+	^self subclassResponsibility.
