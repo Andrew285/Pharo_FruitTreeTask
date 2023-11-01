@@ -1,6 +1,7 @@
 printing
 printOn: aStream
-	""
+	"Prints detailed information about a fruit tree"
+	
 	aStream nextPutAll: 'species name = '.
 	speciesName printOn: aStream.
 	aStream nextPutAll: ', age = '.

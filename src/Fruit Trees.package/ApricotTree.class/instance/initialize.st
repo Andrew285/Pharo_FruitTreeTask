@@ -1,6 +1,7 @@
 initialization
 initialize
 	"Initialize apricot tree."
+	
 	super initialize.
 	speciesName := 'apricot'.
 	cropCapacity := 0.

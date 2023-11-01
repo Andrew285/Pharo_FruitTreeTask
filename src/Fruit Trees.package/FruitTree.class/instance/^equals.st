@@ -1,6 +1,5 @@
 comparing
 = aFruitTree
-	"Compare the receiver with the argument and answer with true if the
-	receiver is equal to the argument. Otherwise answer false."
+	"Answers that the definition of this method is the responsibility of the subclasses"
 
 	^self subclassResponsibility
