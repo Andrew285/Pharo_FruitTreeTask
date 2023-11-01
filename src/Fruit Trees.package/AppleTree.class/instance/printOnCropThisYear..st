@@ -1,5 +1,5 @@
 printing
-printOnCropThisYear
+printOnCropThisYear: aStream
   "Print crop this year"
   
   (age >= cropStart and: isCropThisYear) ifTrue: [
