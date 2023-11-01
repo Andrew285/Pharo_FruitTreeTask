@@ -1,6 +1,7 @@
 initialization
 initializeWithCropColor: aCropColor
 	"Initialize apricot tree. Crop color defined by client and must be between 3 and 4"
+	
 	super initialize.
 	speciesName := 'apple'.
 	isCropThisYear := false.
