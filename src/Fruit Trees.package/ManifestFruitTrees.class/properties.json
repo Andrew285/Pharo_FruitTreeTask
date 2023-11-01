@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TsybulkaNazar 11/1/2023 16:50",
+	"super" : "PackageManifest",
+	"category" : "Fruit Trees-Manifest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ManifestFruitTrees",
+	"type" : "normal"
+}

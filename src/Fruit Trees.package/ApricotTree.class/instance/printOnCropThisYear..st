@@ -1,6 +1,6 @@
 printing
 printOnCropThisYear: aStream
-	"Print crop this year"
+	"Print crop of the apricot tree this year, taking into account frosts"
 	
 	(age >= cropStart) ifTrue: [
 		(isCold 
