@@ -1,6 +1,6 @@
 initialization
 initializeWithCropColor: aCropColor cropStart: aCropStart
-	"Initialize apricot tree. Crop start to be randomly defined between 3 and 4"
+	"Initialize apricot tree. Crop start and crop color to be defined by user"
 	super initialize.
 	speciesName := 'apple'.
 	isCropThisYear := false.
