@@ -1,4 +1,4 @@
 comparing
 < aFruitTree
 
-	^self subclassResponsibility
+	^self subclassResponsibility.
