@@ -1,6 +1,7 @@
 initialization
 initializeWithCropColor: aCropColor cropStart: aCropStart
 	"Initialize apple tree. Crop start and crop color to be defined by user"
+	
 	super initialize.
 	speciesName := 'apple'.
 	isCropThisYear := false.

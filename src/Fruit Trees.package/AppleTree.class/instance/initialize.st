@@ -1,6 +1,7 @@
 initialization
 initialize
 	"Initialize apricot tree. Crop start to be randomly defined between 3 and 4"
+	
 	|colors randomColor|
 	super initialize.
 	speciesName := 'apple'.
