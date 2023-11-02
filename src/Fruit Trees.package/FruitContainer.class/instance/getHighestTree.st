@@ -1,4 +1,4 @@
-as yet unclassified
+tree manipulation
 getHighestTree
 	|maxElement|
 	maxElement := memory at: 1.
