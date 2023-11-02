@@ -1,5 +1,5 @@
 accessing - file
-pickFileAndLoad: pattern 
+readFileAndLoad: pattern 
 	| pathString |
 	pathString := UIManager default
 		              chooseFullFileNameMatching: { pattern }

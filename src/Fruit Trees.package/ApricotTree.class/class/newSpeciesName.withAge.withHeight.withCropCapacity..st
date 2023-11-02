@@ -6,5 +6,6 @@ newSpeciesName: aSpecieName withAge: anAge withHeight: aHeight withCropCapacity:
 		age: anAge;
 		height: aHeight;
 		cropCapacity: aCropCapacity;
-		isCold: false.
+		isCold: false;
+		cropStart: (3 to: 4) atRandom.
 		 
