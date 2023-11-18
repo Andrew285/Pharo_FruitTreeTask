@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"owner",
+		"treeCollection"
+	],
 	"name" : "Garden",
 	"type" : "normal"
 }
