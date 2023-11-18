@@ -3,4 +3,4 @@ initialize
 	"Initialize garden."
 	
 	owner := 'John Stone'.
-    treeCollection := FruitContainer new.
+   treeCollection := FruitContainer new.
