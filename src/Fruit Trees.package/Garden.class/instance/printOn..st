@@ -1,6 +1,6 @@
 printing
 printOn: aStream
-
+	""
 
    aStream nextPutAll: 'Garden owner: '.
 	owner printOn: aStream.
