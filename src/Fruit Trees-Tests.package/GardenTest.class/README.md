@@ -1,0 +1,1 @@
+A GardenTest is a test class for testing the behavior of Garden
