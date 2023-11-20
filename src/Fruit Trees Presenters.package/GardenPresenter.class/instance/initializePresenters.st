@@ -2,6 +2,7 @@ initialization
 initializePresenters
 	table := self newTable.
 	actionBar := self instantiate: GardenActionBarPresenter.
+	actionBar gardenPresenter: self.
 
 	table
 		addColumn:
@@ -28,4 +29,8 @@ initializePresenters
 		addColumn: (SpStringTableColumn 
 			title: 'Crop Capacity' 
 			evaluated: [ :tree | tree cropCapacity asString]);
+			
+		addColumn: (SpStringTableColumn 
+			title: 'Crop Color' 
+			evaluated: [ :tree | tree cropColor asString]);
 		beResizable

@@ -5,13 +5,13 @@ initializePresenters
 			label: 'Add'; 
 			icon: (self iconNamed: #smallAdd);
 			help: 'Add new tree to table';
-			action: [GardenPresenter addTree];
+			action: [gardenPresenter addTree];
 			yourself);
 		add: (self newButton
 			label: 'Remove'; 
 			icon: (self iconNamed: #smallCancel);
 			help: 'Remove tree from table';
-			action: [ UIManager default defer: [ self inform: 'Remove' ] ];
+			action: [gardenPresenter removeTree];
 			yourself);
 		add: (self newButton
 			label: 'Save'; 

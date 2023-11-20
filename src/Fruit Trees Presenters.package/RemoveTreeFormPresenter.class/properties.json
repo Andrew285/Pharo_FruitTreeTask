@@ -6,13 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"actionBar",
-		"addButton",
-		"removeButton",
-		"loadButton",
-		"saveButton",
-		"gardenPresenter"
+		"label"
 	],
-	"name" : "GardenActionBarPresenter",
+	"name" : "RemoveTreeFormPresenter",
 	"type" : "normal"
 }
