@@ -5,7 +5,7 @@ initializePresenters
 			label: 'Add'; 
 			icon: (self iconNamed: #smallAdd);
 			help: 'Add new tree to table';
-			action: [ UIManager default defer: [ self inform: 'Add' ] ];
+			action: [GardenPresenter addTree];
 			yourself);
 		add: (self newButton
 			label: 'Remove'; 
