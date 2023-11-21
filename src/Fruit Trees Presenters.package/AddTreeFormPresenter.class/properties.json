@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "SpPresenter",
+	"category" : "Fruit Trees Presenters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"specieNameText",
+		"ageNumber",
+		"heightNumber",
+		"cropCapacityNumber",
+		"appleTreeRadioButton",
+		"apricotTreeRadioButton",
+		"appleTreeForm",
+		"treeType"
+	],
+	"name" : "AddTreeFormPresenter",
+	"type" : "normal"
+}

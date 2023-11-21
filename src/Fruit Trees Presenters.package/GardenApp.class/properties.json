@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpApplication",
+	"category" : "Fruit Trees Presenters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GardenApp",
+	"type" : "normal"
+}
