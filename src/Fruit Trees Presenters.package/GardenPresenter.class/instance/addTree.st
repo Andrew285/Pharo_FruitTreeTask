@@ -1,11 +1,11 @@
 adding
 addTree
-	| appleAddFormPresenter windowPresenter |
-	appleAddFormPresenter := (GardenApp new) newPresenter: AppleAddFormPresenter.
-	windowPresenter := appleAddFormPresenter openModal.
+	| addTreeFormPresenter windowPresenter |
+	addTreeFormPresenter := (GardenApp new) newPresenter: AddTreeFormPresenter.
+	windowPresenter := addTreeFormPresenter openModal.
 	windowPresenter isOk
 		ifFalse: [ ^ self ].
 	Garden
-		addTree: (AppleAddFormPresenter getTree: appleAddFormPresenter).
+		addTree: (addTreeFormPresenter getTreeModel).
 		
 	self updatePresenter.

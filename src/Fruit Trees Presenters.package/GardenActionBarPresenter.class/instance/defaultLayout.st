@@ -1,5 +1,5 @@
 layout
 defaultLayout
-	^ SpBoxLayout newTopToBottom
+	^ SpBoxLayout newVertical
 		  add: actionBar expand: false;
 		  yourself

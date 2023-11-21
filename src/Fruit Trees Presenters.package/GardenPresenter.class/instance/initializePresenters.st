@@ -32,5 +32,5 @@ initializePresenters
 			
 		addColumn: (SpStringTableColumn 
 			title: 'Crop Color' 
-			evaluated: [ :tree | tree cropColor asString]);
+			evaluated: [ :tree | (tree respondsTo: #cropColor) ifTrue: [ tree cropColor ] ifFalse: [ '---' ] ]);
 		beResizable

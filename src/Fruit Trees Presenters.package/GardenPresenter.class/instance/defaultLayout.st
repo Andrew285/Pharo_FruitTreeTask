@@ -1,6 +1,6 @@
 layout
 defaultLayout 
-	^ SpBoxLayout newTopToBottom
+	^ SpBoxLayout newVertical
 		add: table;
 		add: actionBar;
 		yourself

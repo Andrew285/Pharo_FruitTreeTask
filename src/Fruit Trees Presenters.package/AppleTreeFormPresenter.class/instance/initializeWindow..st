@@ -1,5 +1,5 @@
 initialization
 initializeWindow: aWindowPresenter
 	aWindowPresenter
-		title: 'Add Tree';
-		initialExtent: 400 @ 250.
+		title: 'Garden';
+		initialExtent: 100@100.
