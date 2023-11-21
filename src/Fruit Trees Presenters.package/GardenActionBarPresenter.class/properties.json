@@ -11,6 +11,7 @@
 		"removeButton",
 		"loadButton",
 		"saveButton",
+		"inAYearButton",
 		"gardenPresenter"
 	],
 	"name" : "GardenActionBarPresenter",

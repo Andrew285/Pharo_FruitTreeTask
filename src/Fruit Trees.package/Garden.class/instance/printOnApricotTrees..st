@@ -7,7 +7,7 @@ printOnApricotTrees: aStream
     aStream cr.
     aStream nextPutAll: 'Garden with Apricot trees: '.
     treeCollection do: [ :eachTree |
-        (eachTree isKindOf: AppleTree) ifTrue: [
+        (eachTree isKindOf: ApricotTree) ifTrue: [
             eachTree printOn: aStream.
             aStream nextPut: $,.
             aStream cr.
