@@ -6,12 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"specieNameText",
-		"ageNumber",
-		"heightNumber",
-		"cropCapacityNumber",
 		"cropColorText"
 	],
-	"name" : "AppleAddFormPresenter",
+	"name" : "AppleTreeFormPresenter",
 	"type" : "normal"
 }
