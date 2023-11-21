@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "SpPresenter",
+	"category" : "Fruit Trees Presenters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"specieNameText",
+		"ageNumber",
+		"heightNumber",
+		"cropCapacityNumber",
+		"cropColorText"
+	],
+	"name" : "AppleAddFormPresenter",
+	"type" : "normal"
+}

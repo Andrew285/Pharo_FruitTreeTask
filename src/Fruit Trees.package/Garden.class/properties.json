@@ -2,7 +2,9 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Fruit Trees",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"fruitTrees"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

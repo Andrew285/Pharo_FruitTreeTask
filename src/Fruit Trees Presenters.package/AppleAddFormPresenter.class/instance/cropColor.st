@@ -1,0 +1,3 @@
+accessing
+cropColor
+	^ cropColorText text.

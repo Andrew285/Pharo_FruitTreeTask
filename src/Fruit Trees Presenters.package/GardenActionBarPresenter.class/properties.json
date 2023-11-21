@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "SpPresenter",
+	"category" : "Fruit Trees Presenters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"actionBar",
+		"addButton",
+		"removeButton",
+		"loadButton",
+		"saveButton",
+		"gardenPresenter"
+	],
+	"name" : "GardenActionBarPresenter",
+	"type" : "normal"
+}
