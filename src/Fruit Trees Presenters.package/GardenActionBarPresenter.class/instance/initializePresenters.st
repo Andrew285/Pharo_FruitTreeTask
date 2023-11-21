@@ -26,4 +26,11 @@ initializePresenters
 			help: 'Load garden from File';
 			action: [ UIManager default defer: [ self inform: 'Load' ] ];
 			yourself);
+		add: (self newButton
+			label: 'Year ago'; 
+			icon: (self iconNamed: #smallAdd);
+			help: 'Trees grow up in a year';
+			action: [gardenPresenter inAYear];
+			yourself);
 		yourself.
+		
