@@ -38,5 +38,11 @@ initializePresenters
 			help: 'Calculates and returns crop capacity of all garden';
 			action: [gardenPresenter totalCropCapacity];
 			yourself);
+		add: (self newButton
+			label: 'Old trees'; 
+			icon: (self iconNamed: #glamurousRemove );
+			help: 'Returns a message about which trees are old and should be removed.';
+			action: [gardenPresenter oldTreesReport];
+			yourself);
 		yourself.
 		

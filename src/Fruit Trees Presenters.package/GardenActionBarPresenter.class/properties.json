@@ -13,6 +13,7 @@
 		"saveButton",
 		"inAYearButton",
 		"totalCropButton",
+		"oldTreesButton",
 		"gardenPresenter"
 	],
 	"name" : "GardenActionBarPresenter",
