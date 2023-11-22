@@ -1,6 +1,6 @@
 printing
 printOnApricotTrees: aStream
-    ""
+	"Prints detailed information about an apricot trees in the garden"
 
     aStream nextPutAll: 'Garden owner: '.
     owner printOn: aStream.
