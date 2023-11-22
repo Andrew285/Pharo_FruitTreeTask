@@ -6,15 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"actionBar",
-		"addButton",
-		"removeButton",
-		"loadButton",
-		"saveButton",
-		"inAYearButton",
-		"totalCropButton",
-		"gardenPresenter"
+		"label"
 	],
-	"name" : "GardenActionBarPresenter",
+	"name" : "InformationPresenter",
 	"type" : "normal"
 }
