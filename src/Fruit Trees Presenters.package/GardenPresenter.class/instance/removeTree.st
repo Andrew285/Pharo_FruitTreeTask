@@ -7,5 +7,5 @@ removeTree
 		ifFalse: [ ^ self ].
 		
 	selectedTrees do: [ :tree | Garden removeTree: tree ].
-		
+	selectedTrees := OrderedCollection new.
 	self updatePresenter.
