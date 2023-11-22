@@ -28,9 +28,21 @@ initializePresenters
 			yourself);
 		add: (self newButton
 			label: 'Year ago'; 
-			icon: (self iconNamed: #smallAdd);
+			icon: (self iconNamed: #calendar);
 			help: 'Trees grow up in a year';
 			action: [gardenPresenter inAYear];
+			yourself);
+		add: (self newButton
+			label: 'Crop'; 
+			icon: (self iconNamed: #magnitude);
+			help: 'Calculates and returns crop capacity of all garden';
+			action: [gardenPresenter totalCropCapacity];
+			yourself);
+		add: (self newButton
+			label: 'Old trees'; 
+			icon: (self iconNamed: #glamurousRemove );
+			help: 'Returns a message about which trees are old and should be removed.';
+			action: [gardenPresenter oldTreesReport];
 			yourself);
 		yourself.
 		
