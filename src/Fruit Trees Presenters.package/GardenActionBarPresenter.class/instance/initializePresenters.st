@@ -17,14 +17,14 @@ initializePresenters
 			label: 'Save'; 
 			icon: (self iconNamed: #smallSave);
 			help: 'Save garden to File';
-			action: [ UIManager default defer: [ self inform: 'Save' ] ];
+			action: [gardenPresenter saveGarden ];
 			yourself);
 			
 		add: (self newButton
 			label: 'Load'; 
 			icon: (self iconNamed: #smallLoadProject);
 			help: 'Load garden from File';
-			action: [ UIManager default defer: [ self inform: 'Load' ] ];
+			action: [ gardenPresenter loadGarden ];
 			yourself);
 		add: (self newButton
 			label: 'Year ago'; 

@@ -1,5 +1,5 @@
 layout
 defaultLayout
-	^ SpBoxLayout newVertical
+	^ SpBoxLayout newVertical 
 		  add: actionBar expand: false;
 		  yourself
