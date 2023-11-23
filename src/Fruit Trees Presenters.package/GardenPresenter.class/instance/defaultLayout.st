@@ -1,6 +1,6 @@
 layout
 defaultLayout 
 	^ SpBoxLayout newVertical
-		add: table;
-		add: actionBar;
+		add: table expand: true;
+		add: actionBar expand: false;
 		yourself
