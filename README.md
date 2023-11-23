@@ -84,6 +84,36 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## UI Частина проекту
+
+![image](https://github.com/Andrew285/Pharo_FruitTreeTask/assets/75886738/4a32a3bd-5248-4627-b641-db4e735f4115)
+:--:
+*Головне вікно для демонстрації саду та взаємодії з ним*
+
+![image](https://github.com/Andrew285/Pharo_FruitTreeTask/assets/75886738/d995b600-19f8-4e38-85d8-38b73d8be797)
+:--:
+*Вікно додавання дерева певного типу*
+
+![image](https://github.com/Andrew285/Pharo_FruitTreeTask/assets/75886738/9cdd4255-c2f5-4ff0-b103-b62acf01dc34)
+:--:
+*Вікно видалення обраних дерев*
+
+![image](https://github.com/Andrew285/Pharo_FruitTreeTask/assets/75886738/03c09a46-befe-4bbc-9664-c086f127930d)
+:--:
+*Вікно завантаження дерев з файлу .STON*
+
+![image](https://github.com/Andrew285/Pharo_FruitTreeTask/assets/75886738/1a479cba-13a6-497e-82be-0bc730db500f)
+:--:
+*Інформаційне вікно, що демонструє сумарну кількість урожаю з усього саду*
+
+![image](https://github.com/Andrew285/Pharo_FruitTreeTask/assets/75886738/f11731e0-5e63-4c42-8dd1-2abcbb5117cd)
+:--:
+*Інформаційне вікно, що демонструє усі дерева, що старші за певний вік*
+
+
+
+
+
 
 
  
